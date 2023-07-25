@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color:transparent;
+    background-color: #0c1f29;
+    color: white;
+}
+input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+  }
+input{
+    outline: 0;
+  }
+button{
+    /* border: 0; */
+    outline: 0;
+  }
+
+ ul,li{
+    list-style: none;
+  }
+  
+a{
+    text-decoration: none;
+}
+
+.bgTransparent{
+  background:  rgba(0,0,0,0.93);
+}
+
+/* Hide scrollbar by calling .element */
+.element::-webkit-scrollbar {
+  display: none;
+}
+
+.center-div{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient( #34a1cd , #fff );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* styles on phases on methodolgy component */
+.Discovery{
+  color:#34a1cd !important;
+}
+.Design{
+  color:#e7a741 !important;
+
+}
+.Build{
+  color:#d74848 !important;
+
+}
+.Launch{
+  color:#7972de !important;
+
+}
