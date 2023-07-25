@@ -27,7 +27,7 @@ function Recentwork() {
         {
             image: "https://avatars.mds.yandex.net/i?id=515ac9d4364c9c555d795abe7b00f653-4346197-images-thumbs&n=13",
             url: "https://tnafx.netlify.app",
-            title: "Forex,Not yet completed , only UI(MERN) 🚀"
+            title: "Forex,working on it, only UI(MERN) 🚀"
         }
         // {
         //     image: ""
