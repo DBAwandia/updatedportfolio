@@ -23,7 +23,11 @@ function Sidebar({ close , setOpen } :any | boolean) {
        <div className="absolute animate__animated animate__slideInLeft top-0 left-0 right-0 bottom-0 z-[999999] bg-[#1a323e] w-[80%] md:w-[50%] py-[1rem] md:py-[2rem] min-h-full gap-[2rem] flex flex-col">
         <div className="w-full px-[1rem] md:px-[1.5rem]  flex justify-between">
 
-        <Link smooth to="#home">
+        <Link 
+            onClick={handleClose}
+            smooth  
+            to="#home"
+        >
           <div>
                 <LazyLoadImage
                     effect="blur"
@@ -42,19 +46,31 @@ function Sidebar({ close , setOpen } :any | boolean) {
             </div>
           </div>
 
-          <Link smooth to="#portfolio">
+          <Link 
+            onClick={handleClose}
+            smooth  
+            to="#portfolio"
+         >
             <div className="w-full border-b-2 border-[#2a424e] text-[1rem] font-bold">
               <p className="px-[1.5rem] md:py-[2rem]  py-[1.7rem] tracking-wider">Skills</p>
             </div>
           </Link>
           
-          <Link smooth to="#portfolio">
+            <Link 
+                onClick={handleClose}
+                smooth  
+                to="#portfolio"
+            >
             <div className="w-full border-b-2 border-[#2a424e] text-[1rem] font-bold">
               <p className="px-[1.5rem] md:py-[2rem]  py-[1.7rem] tracking-wider">Portfolio</p>
             </div>
           </Link>
 
-          <Link smooth to="#connect">
+          ` <Link 
+                onClick={handleClose}
+                smooth  
+                to="#connect"
+            >
             <div className="w-full border-b-2 border-[#2a424e] text-[1rem] font-bold">
               <p className="px-[1.5rem] md:py-[2rem]  py-[1.7rem] tracking-wider">Connect</p>
             </div>
