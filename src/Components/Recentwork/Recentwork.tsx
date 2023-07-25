@@ -25,9 +25,9 @@ function Recentwork() {
             title: "E-commerce phones"
         },
         {
-            image: "https://avatars.mds.yandex.net/i?id=515ac9d4364c9c555d795abe7b00f653-4346197-images-thumbs&n=13",
-            url: "",
-            title: "Under construction 🚀"
+            image: "https://avatars.mds.yandex.net/i?id=b1bed10bfec57a69970f8a1310a6ddf2dd917407-6849173-images-thumbs&n=13",
+            url: "https://xcrxwalker.netlify.app",
+            title: "Currently a freelancer ... "
         }
         // {
         //     image: ""
